@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "items",
+  "info": {
+    "name": "Item",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "quantity": {
+      "type": "biginteger"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "product": {
+      "model": "product",
+      "via": "item"
+    },
+    "order": {
+      "via": "item",
+      "model": "order"
+    },
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "cart": {
+      "via": "item",
+      "model": "cart"
+    }
+  }
+}

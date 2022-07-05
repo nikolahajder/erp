@@ -1,0 +1,13 @@
+.gradient-btn {
+    margin-right: 3rem;
+    border: 1px solid #ffd639;
+    padding: 1rem 2rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.gradient-btn:hover {
+    background-color: #ffd639;
+    color: #fff;
+}

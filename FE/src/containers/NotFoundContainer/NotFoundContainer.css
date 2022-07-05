@@ -1,0 +1,33 @@
+.notfound-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #111b32;
+}
+
+.notfound-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.notfound-title {
+    font-size: 50px;
+    color: #ab2346;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.notfound-sub-title {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: lighter;
+    width: 22%;
+    text-align: center;
+    margin: 0 0 4rem 0;
+}
